@@ -1,0 +1,20 @@
+package jdbc;
+
+// is for retriving data from database 
+// first program to connect with jdbc
+
+public class GetAllEmployees {
+	public static void main(String[] args) {
+		
+		String driver, url, user, password;
+		
+		driver = "com.mysql.cj.jdbc.Driver";
+		
+		url = "jdbc:mysql://localhost:3306/edb12634";
+		
+		user = "root";
+		
+		password = "root";
+		
+	}
+}

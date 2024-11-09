@@ -1,0 +1,45 @@
+package modifiers.pack1.staticblock;
+
+public class StaticBlockExample {
+	
+	//static properties.
+	static int num;
+	
+	//instance block
+	{
+		System.out.println("Iam from Instance Block");
+		// when it calls.
+		// 
+	}
+	
+	//static block
+	static {
+		num = 56;
+		int s = 67;
+		System.out.println("Iam from static block");
+		// before creating object, 
+		// establishmemnt of conection , calling any api, discard prevoius connection.
+	}
+	
+	//constructor
+	public StaticBlockExample() {
+		System.out.println("Iam from constructor!");
+	}
+	
+	//method
+	public void display() {
+		System.out.println("Iam from display Method.");
+	}
+	
+	//main method
+	public static void main(String[] args) {
+		
+		System.out.println("Hello iam from main method.");
+		System.out.println(num);
+		StaticBlockExample sb = new StaticBlockExample();
+		sb.display();
+		
+		StaticBlockExample sb1 = new StaticBlockExample();
+	}
+	
+}

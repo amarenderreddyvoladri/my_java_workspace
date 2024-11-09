@@ -1,0 +1,14 @@
+package files_handling.writer;
+
+import java.io.IOException;
+
+public class StringWriterDemo {
+	public static void main(String[] args) {
+		String data = "This is an example of string writer.";
+		try {
+			
+		}catch(IOException e) {
+			e.getStackTrace();
+		}
+	}
+}

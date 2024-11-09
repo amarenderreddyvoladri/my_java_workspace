@@ -1,0 +1,14 @@
+package java_wrapper_class;
+
+public class WrapperClassDemo {
+	public static void main(String[] args) {
+		
+		// wrapper classes
+		int num = 34;
+		Integer n = (Integer)num;		
+		System.out.println(n);		
+		
+		num = (int)n;		
+		System.out.println(num);
+	}
+}

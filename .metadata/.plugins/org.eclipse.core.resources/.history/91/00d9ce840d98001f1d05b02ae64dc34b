@@ -1,0 +1,5 @@
+package java_multhreading_practise.deamon_thread;
+
+public class DeamonThreadDemo {
+
+}

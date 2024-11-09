@@ -1,0 +1,1 @@
+This is a dummy text with buffer write ibto file. Its working successfully.

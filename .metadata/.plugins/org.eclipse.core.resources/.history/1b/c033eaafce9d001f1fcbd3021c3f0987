@@ -1,0 +1,55 @@
+package jdbc;
+
+import java.sql.Connection;
+
+import java.sql.DriverManager;
+
+import java.sql.SQLException;
+
+
+// is for retriving data from database 
+// first program to connect with jdbc
+
+public class CallableStatementDemo {
+
+	public static void main(String[] args) throws ClassNotFoundException, SQLException {
+
+		String driver, url, user, password;
+
+		driver = "com.mysql.cj.jdbc.Driver";
+
+		url = "jdbc:mysql://localhost:3306/edb12634";
+
+		user = "root";
+
+		password = "root";
+
+		String procedureQuery = "{call getAllEmployees()}";
+
+		// 1. Loading the driver.[Optional]
+
+		Class.forName(driver);
+
+		// 2. Establish the connection.[building bridge b/w java application and db]
+
+		Connection con = DriverManager.getConnection(url, user, password);
+
+		// 3. Create Statement Object.
+
+		CallableStatement cst = con.prepareCall(procedureQuery);
+
+		// 4. Process the query.[SELECT]
+		String selectQuery = "select * from Employee where id = 13";
+
+		// 5. Close the resources.
+		rs.close();
+		st.close();
+		con.close();
+
+	}
+}
+
+/*
+ * Mistakes : driver jdb no c port number 3307 - wrong. wrong db name : edb12635
+ * mysql// not : incorrect table name : employe
+ */

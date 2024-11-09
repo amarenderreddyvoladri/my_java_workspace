@@ -1,0 +1,14 @@
+package files_handling.writer;
+
+import java.io.IOException;
+
+public class BufferedWriterDemo {
+	public static void main(String[] args) {
+		
+		try {
+			
+		}catch(IOException ioe) {
+			ioe.printStackTrace();
+		}
+	}
+}

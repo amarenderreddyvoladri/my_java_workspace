@@ -1,0 +1,14 @@
+
+public class PalindromeDemo {
+
+	// To check whether the given number is Palindrome or not.
+	public boolean isPalindrome(int n) {
+
+		return false;
+	}
+
+	
+
+	public static void main(String[] args) {
+	}
+}

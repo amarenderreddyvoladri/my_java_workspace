@@ -1,0 +1,23 @@
+import java.util.LinkedHashSet;
+
+public class RemoveDuplicates {
+	
+	public void removeDuplicates(String str) {
+		
+		LinkedHashSet<Character> data = new LinkedHashSet<Character>();
+		
+		for(char c : str.toCharArray()) {
+			data.add(c);
+		}
+		
+		StringBuffer res = new StringBuffer();
+		for(char c : data) {
+			res.append(c);
+		}
+		
+		
+	}
+	public static void main(String[] args) {
+		
+	}
+}

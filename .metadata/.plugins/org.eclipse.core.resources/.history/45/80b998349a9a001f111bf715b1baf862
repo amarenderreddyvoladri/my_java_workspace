@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class ReverseNumber {
+	
+	public double findReverse(double num) {
+		double result = 0,rem = 0, sum=0;
+		
+		
+		while(num != 0) {
+			rem = num % 10;
+			sum = (sum * 10)+rem;
+			num = num / 10;
+		}
+		
+		return result;
+	}
+	public static void main(String[] args) {
+		
+		// finding the reverse number of given number.
+		
+		ReverseNumber rn = new ReverseNumber();
+		
+		
+		Scanner sc=  new Scanner(System.in);
+		
+		sc.close();
+	}
+}

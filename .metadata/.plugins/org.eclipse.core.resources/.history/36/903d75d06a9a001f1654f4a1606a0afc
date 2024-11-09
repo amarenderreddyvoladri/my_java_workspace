@@ -1,0 +1,37 @@
+package date_api_java.pack1;
+
+import java.time.LocalDate;
+
+public class DateApiDemo {
+	
+	public static void main(String[] args) {
+		
+		 LocalDate date = LocalDate.now(); 
+		 
+		 System.out.println("Local Date : "+date);
+		 
+		 System.out.println(date.getDayOfWeek());
+		 
+		 System.out.println(date.getDayOfMonth());
+		 
+		 System.out.println(date.getDayOfYear());		 
+		 
+		 
+		 System.out.println("---------------------------");
+		 
+		 System.out.println(date.getMonthValue());
+		 
+		 System.out.println(date.getMonth());
+		 
+		 System.out.println(date.lengthOfMonth());
+		 
+		 System.out.println("---------------------------");
+		 
+		 System.out.println("year : "+date.getYear());
+		 
+		 System.out.println("length of year : "+date.lengthOfYear());
+		 
+		 System.out.println("is leap year : "+date.isLeapYear());
+		 
+	}
+}

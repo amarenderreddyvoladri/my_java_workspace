@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;DBUtils.java&apos; to &apos;jdbc_mobile_app/src&apos;&#x0D;&#x0A;- Original project: &apos;contact_app&apos;&#x0D;&#x0A;- Destination element: &apos;jdbc_mobile_app/src&apos;&#x0D;&#x0A;- Original element: &apos;com.edubridge.contact_app.util.DBUtils.java&apos;" description="Copy compilation unit" destination="=jdbc_mobile_app/src" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.edubridge.contact_app.util{DBUtils.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1731150478599" units="1" version="1.0"/>
+</session>

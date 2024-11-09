@@ -1,0 +1,5 @@
+package files_handling.writer;
+
+public class StringWriterDemo {
+
+}

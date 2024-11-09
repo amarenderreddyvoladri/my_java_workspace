@@ -1,0 +1,23 @@
+package singleton_pattern;
+
+public class PrinterUtils {
+	
+	// just declaring this class instance for object creation.
+	private static PrinterUtils instance;
+	
+	private PrinterUtils() {}	
+	// private constructor to avoid creating object outside the class.
+	
+	public static PrinterUtils getInstance() {
+		
+		if(instance == null) {
+			instance = new PrinterUtils();
+		}
+		
+		return instance;		
+	}
+	
+	public void printJob() {
+		System.out.println("printing ............");
+	}
+}

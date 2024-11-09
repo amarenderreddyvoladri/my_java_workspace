@@ -1,0 +1,14 @@
+package files_handling.reader;
+
+import java.io.IOException;
+
+public class BufferedReaderDemo {
+	public static void main(String[] args) {
+		
+		try {
+			
+		}catch(IOException e) {
+			e.getStackTrace();
+		}
+	}
+}

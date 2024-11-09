@@ -1,0 +1,18 @@
+package files_handling.writer;
+
+import java.io.File;
+import java.io.OutputStreamWriter;
+
+public class WriterDemo {
+	public static void main(String[] args) {
+		String data = "This is the line that is written into the file.";
+		
+		//creating a file object.
+		File f = new File("file5.txt");
+		
+		//creating FileOuputStreamWriter Object.
+		FileOuputStreamWriter fout = new FileOuputStreamWriter(f);
+		//creating the writer object.
+		OutputStreamWriter out = new OutputStreamWriter(fout);
+	}
+}

@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class ReverseNumber {
+	
+	public double findReverse(double num) {
+		double result = 0;
+		
+		while() {
+			
+		}
+		
+		return result;
+	}
+	public static void main(String[] args) {
+		
+		// finding the reverse number of given number.
+		
+		ReverseNumber rn = new ReverseNumber();
+		
+		
+		Scanner sc=  new Scanner(System.in);
+		
+		sc.close();
+	}
+}

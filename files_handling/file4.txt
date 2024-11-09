@@ -1,0 +1,2 @@
+Iam from PrintStream class in java.io package. I have an autoFlush option by default.
+Iam 24 years old.

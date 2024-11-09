@@ -1,0 +1,17 @@
+import java.util.LinkedHashSet;
+
+public class RemoveDuplicates {
+	
+	public void removeDuplicates(String str) {
+		
+		LinkedHashSet<Character> data = new LinkedHashSet<Character>();
+		for(char c : str) {
+			data.add(c);
+		}
+		
+		
+	}
+	public static void main(String[] args) {
+		
+	}
+}
